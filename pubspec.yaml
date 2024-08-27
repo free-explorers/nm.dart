@@ -13,7 +13,9 @@ platforms:
   linux:
 
 dependencies:
-  dbus: ^0.7.0
+  dbus: 
+    git:
+      url: https://github.com/free-explorers/dbus.dart
 
 dev_dependencies:
   lints: ^2.0.0
